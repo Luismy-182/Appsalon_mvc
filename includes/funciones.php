@@ -14,15 +14,11 @@ function s($html) : string {
 }
 
 function esUltimo(string $actual, string $proximo):bool{
-
     if($actual !== $proximo){
         return true;
     }
     return false;
-
-
 }
-
 
 
 function isAuth(): void{
